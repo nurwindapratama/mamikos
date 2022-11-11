@@ -1,7 +1,8 @@
-scenario: ketika pengguna akan mengisi saldo.
-Given user successfully signed in 
-When user memilih mengisi saldo
-And User memilih jumlah saldo 
-And User memilih metode pembayaran
-And User klik button bayar
-then user akan diberikan kode bayar dan batas waktu pembayaran.
+scenario: when the user is about to Top up balance.
+Given user successfully signed in
+When the user chooses to Top up balance
+And User select the balance to top up 
+And User chooses the payment method
+And the user clicks pay button
+then the user will receive  payment code and deadline.
+
