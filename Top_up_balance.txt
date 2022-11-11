@@ -1,0 +1,7 @@
+scenario: ketika pengguna akan mengisi saldo.
+Given user successfully signed in 
+When user memilih mengisi saldo
+And User memilih jumlah saldo 
+And User memilih metode pembayaran
+And User klik button bayar
+then user akan diberikan kode bayar dan batas waktu pembayaran.

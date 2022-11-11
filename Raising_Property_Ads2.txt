@@ -1,0 +1,9 @@
+Scenerio: Pengguna Menaikan Iklan Properti dengan saldo lebih dari sama dengan 5000.
+Given user successfully signed in 
+When user memilih menaikan iklan 
+And User memiliki saldo lebih dari 5000
+And User memilih properti 
+And User memasukan anggaran harian
+And User klik button naikan properti
+then user akan mendapatkan notifikasi bahwa iklan akan dinaikan dan melihat iklan properti pengguna akan berada dipaling atas pencarian.
+ 

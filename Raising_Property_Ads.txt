@@ -1,0 +1,7 @@
+scenario: Pengguna Menaikan Iklan Properti dengan saldo kurang dari 5000.
+Given user successfully signed in 
+When user memilih menaikan iklan
+And User memiliki saldo kurang dari 5000
+And User memilih properti 
+And User klik button naikan properti
+then user pengguna tidak dapat menaikan iklan dan mendapatkan pesan untuk mengisi saldo terlebih dahulu.
