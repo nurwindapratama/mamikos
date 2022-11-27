@@ -18,3 +18,4 @@ for(const x of data){
 }
 console.log('min: ', min);
 console.log('max: ', max);
+
